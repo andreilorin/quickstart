@@ -12,3 +12,4 @@ This archetype generates projects with dependencies that allow for rapid prototy
 - [testcontainers](https://www.testcontainers.org/)
 - [password4j](https://password4j.com/)
 - [agrona](https://github.com/real-logic/agrona)
+- [java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
