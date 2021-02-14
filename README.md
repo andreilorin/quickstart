@@ -10,3 +10,5 @@ This archetype generates projects with dependencies that allow for rapid prototy
 - [assertj](https://assertj.github.io/doc/)
 - [junit5](https://junit.org/junit5/)
 - [testcontainers](https://www.testcontainers.org/)
+- [password4j](https://password4j.com/)
+- [agrona](https://github.com/real-logic/agrona)
