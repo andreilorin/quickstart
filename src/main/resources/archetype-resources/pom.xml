@@ -13,33 +13,37 @@
     <url>https://github.com/andreilorin/${artifactId}</url>
 
     <properties>
+        <hikari.version>3.4.5</hikari.version>
+        <javadiffutil.version>4.9</javadiffutil.version>
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <junit.platform.version>1.6.2</junit.platform.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lombok.version>1.18.12</lombok.version>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+        <password4j.version>1.5.1</password4j.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
-            <version>3.4.5</version>
+            <version>${hikari.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.password4j</groupId>
             <artifactId>password4j</artifactId>
-            <version>1.5.1</version>
+            <version>${password4j.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.java-diff-utils</groupId>
-            <artifactId>java-diff-utils</artifactId>
+            <artifactId>${javadiffutil.version}</artifactId>
             <version>4.9</version>
         </dependency>
         <dependency>
