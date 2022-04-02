@@ -7,6 +7,7 @@ This archetype generates projects with dependencies that allow for rapid prototy
 - [assertj](https://assertj.github.io/doc/)
 - [HikariCP](https://github.com/brettwooldridge/HikariCP)
 - [java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
+- [java-faker](https://dius.github.io/java-faker/)
 - [junit5](https://junit.org/junit5/)
 - [lombok](https://projectlombok.org/)
 - [mockito](https://site.mockito.org/)
