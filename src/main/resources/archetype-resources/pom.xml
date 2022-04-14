@@ -16,6 +16,7 @@
         <agrona.version>1.15.0</agrona.version>
         <asertj.version>3.22.0</asertj.version>
         <hikari.version>5.0.1</hikari.version>
+        <jackson.version>2.13.2</jackson.version>
         <javadiffutil.version>4.11</javadiffutil.version>
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
         <junit.platform.version>1.8.2</junit.platform.version>
@@ -46,6 +47,11 @@
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
             <version>${hikari.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version${jackson.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.java-diff-utils</groupId>
