@@ -6,6 +6,7 @@ This archetype generates projects with dependencies that allow for rapid prototy
 - [agrona](https://github.com/real-logic/agrona)
 - [assertj](https://assertj.github.io/doc/)
 - [HikariCP](https://github.com/brettwooldridge/HikariCP)
+- [jackson](https://github.com/FasterXML/jackson)
 - [java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
 - [java-faker](https://dius.github.io/java-faker/)
 - [junit5](https://junit.org/junit5/)
